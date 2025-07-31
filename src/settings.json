@@ -27,12 +27,6 @@
           "params": {
             "text": "Text for luminai to respond to"
           }
-        },
-        {
-          "name": "Gpt",
-          "desc": "Gpt online",
-          "path": "/ai/gpt?prompt=",
-          "status": "ready"
         }
       ]
     },
