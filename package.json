@@ -1,0 +1,29 @@
+{
+  "name": "Hookrest-ui",
+  "version": "1.0.0",
+  "description": "Simple and easy to use API documentation website",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node --watch index.js"
+  },
+  "keywords": ["api", "documentation", "rest", "express", "nodejs"],
+  "author": "Hookrest Team",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.6.8",
+    "body-parser": "^1.20.3",
+    "cheerio": "^1.0.0",
+    "cors": "^2.8.5",
+    "chalk": "^4.1.2",
+    "express": "^4.19.2",
+    "fs": "^0.0.1-security",
+    "https": "^1.0.0",
+    "node-fetch": "^2.6.1",
+    "yt-search": "^2.12.1"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
