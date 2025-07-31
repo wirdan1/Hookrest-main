@@ -1,0 +1,45 @@
+{
+  "name": "Hookrest Api'S",
+  "version": "v1.0.0",
+  "description": "Simple and easy to use API.",
+  "maintenance": {
+    "enabled": false,
+    "gifUrl": "https://raw.githubusercontent.com/raolbyte/xyz/refs/heads/main/public/maintenance.gif"
+  },
+  "bannerImage": "/src/banner.jpg",
+  "previewImage": "/src/preview.png",
+  "header": {
+    "status": "Active!"
+  },
+  "apiSettings": {
+    "creator": "VGX Team",
+    "apikey": ["vgx-team"]
+  },
+  "categories": [
+    {
+      "name": "Artificial Intelligence",
+      "items": [
+        {
+          "name": "LuminAI",
+          "desc": "Talk with luminai - Advanced AI assistant",
+          "path": "/ai/luminai?text=",
+          "status": "ready",
+          "params": {
+            "text": "Text for luminai to respond to"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Random Images",
+      "items": [
+        {
+          "name": "Blue Archive",
+          "desc": "Get random Blue Archive character images",
+          "path": "/random/ba",
+          "status": "ready"
+        }
+      ]
+    }
+  ]
+}
